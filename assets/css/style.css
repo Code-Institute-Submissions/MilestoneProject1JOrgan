@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Volkhov');
 
-#websitebanner{
+/*#websitebanner{
     background-color: red;
-}
+} */
 
 #course-content{
     background-color: green;
@@ -13,31 +13,30 @@
 }
 
 .coursedescription{
-    text-align: center;
+    text-align: justify;
     font-weight: bold;
 }
 
-.coursedescription .h2 {
-    text-transform: uppercase;
-}
 
 @media (min-width: 768px) {
     .display-1-sm {
-        text-align: center;
+         text-align: left; 
          text-transform: uppercase;
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .display-1-md {
-        text-align: center;
+        text-align: left;
+        text-transform: uppercase;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .display-1y-lg {
-        text-align: center;
+        text-align: left;
+        text-transform: uppercase;
     }
 }
 
