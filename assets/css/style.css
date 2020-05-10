@@ -8,6 +8,7 @@ body{
     font-family:'Luckiest Guy', sans-serif;
 }
 
+
 .websitebanner-container{
     background: url(../images/background.jpg) no-repeat bottom right fixed; 
     webkit-background-size: cover;
@@ -20,6 +21,7 @@ body{
 
     position: relative;
 }
+
 
 .jumbotron {
     background-color: transparent;
@@ -50,56 +52,41 @@ body{
 }
 
 
-@media (min-width: 768px) {
-    .display-1-sm {
-         text-align: left; 
-         text-transform: uppercase;
-        
-         
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .display-1-md {
-        text-align: left;
-        text-transform: uppercase;
-      
+    @media (min-width: 768px) {
+        .display-1-sm {
+            text-align: center; 
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing:4px;
+            color:white;
+            
+                
+        }
     }
-}
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .display-1y-lg {
-        text-align: left;
-        text-transform: uppercase;
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .display-1-md {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing:4px;
+            color:white;
         
+        }
     }
-}
+
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .display-1y-lg {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing:4px;
+            color:white;
+        }
+    }
 
 
-@media (min-width: 544px) {  
-  h1 {
-      font-size: 12px;
-  } /*1rem = 16px*/
-   
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-  h1 {font-size:32px;
-  } /*1rem = 16px*/
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  h1 { font-size: 32px;
-  } /*1rem = 16px*/
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  h1 {font-size: 48px;
-  } /*1rem = 16px*/    
-}
-
+    
+    
