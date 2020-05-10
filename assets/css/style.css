@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Volkhov');
+/*@import url('https://fonts.googleapis.com/css?family=Lato:300|Volkhov');
 
 /*#websitebanner{
     background-color: red;
 } */
+
+body{
+    font-family:'Luckiest Guy', sans-serif;
+}
 
 #course-content{
     background-color: green;
@@ -22,6 +26,9 @@
     .display-1-sm {
          text-align: left; 
          text-transform: uppercase;
+        
+         
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -29,6 +36,7 @@
     .display-1-md {
         text-align: left;
         text-transform: uppercase;
+      
     }
 }
 
@@ -37,6 +45,7 @@
     .display-1y-lg {
         text-align: left;
         text-transform: uppercase;
+        
     }
 }
 
