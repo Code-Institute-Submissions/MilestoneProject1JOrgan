@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Luckiest');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*#websitebanner{
     background-color: red;
 } */
 
 body{
-    font-family:'Luckiest Guy', sans-serif;
+    font-family:"Fredoka+One", sans-serif;
     
     
+}
+.text-uppercase{
+    font-family:"Fredoka+One", sans-serif;
 }
 
 
@@ -42,16 +45,18 @@ body{
 }
 .bannertext{
     
-
+    font-weight: 100;
+    text-align: center;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     bottom: 20%;
     padding: 50px;    
-    min-width: 300px;
-    max-width: 400px;
-    font-size: 30px;
-    color: white;
     text-transform: uppercase;
-    font-family:'Luckiest Guy', sans-serif;
+    font-family:"FredokaOne", sans-serif;
+
+   
 }
 
 
