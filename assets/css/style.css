@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Lato:300|Volkhov');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Luckiest');
 
 /*#websitebanner{
     background-color: red;
@@ -6,6 +6,8 @@
 
 body{
     font-family:'Luckiest Guy', sans-serif;
+    
+    
 }
 
 
@@ -18,15 +20,44 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+}
+.coursedescription-container{
+    background-color:rgba(39, 73, 109, 1);
+    color:white;
+    font-size: 20px;
+
+}
+
+/*Nav Bar*/
+.navbar-custom{
+    margin-bottom: 0;
+    border:0;
+    width: 100%;
+    background-color: rgba(20, 40, 80, 1);
+}
+.navbar-custom{
+    background-color: rgba(20, 40, 80, 1);
+
+}
+.bannertext{
+    
+
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    min-width: 300px;
+    max-width: 400px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Luckiest Guy', sans-serif;
 }
 
 
 .jumbotron {
     background-color: transparent;
 }
-
 
 .course-content-container{
     background-color: purple;
