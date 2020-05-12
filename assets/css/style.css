@@ -15,8 +15,19 @@ body{
     text-transform:uppercase;
     color: #fff;
 }
-
-
+.bannertext{
+    
+    font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;
+}
 .websitebanner-container{
     background: url(../images/background.jpg) no-repeat bottom right fixed; 
     webkit-background-size: cover;
@@ -28,6 +39,7 @@ body{
     justify-content: center;
     position: relative;
 }
+
 .coursedescription-container{
     background-color:rgba(39, 73, 109, 1);
     color: #fff;
@@ -46,22 +58,7 @@ body{
     background-color: rgba(20, 40, 80, 1);
 
 }
-.bannertext{
-    
-    font-weight: 100;
-    font-family:"Pacifico", sans-serif;
-    text-align: center;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    bottom: 20%;
-    padding: 50px;    
-    text-transform: uppercase;
-   
 
-   
-}
 
 
 .jumbotron {
@@ -83,8 +80,10 @@ body{
 }
 
 #certification-content{
-    background-color: blue;
+    background-color: green;
 }
+
+
 
 .coursedescription{
     text-align: justify;
@@ -93,40 +92,107 @@ body{
 }   
 
 
-    @media (min-width: 768px) {
-        .display-1-sm {
-            text-align: center; 
-            text-transform: uppercase;
-            font-weight: bold;
-            letter-spacing:4px;
-            color:white;
-            
-                
-        }
-    }
-
-    /* Medium devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-        .display-1-md {
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: bold;
-            letter-spacing:4px;
-            color:white;
-        
-        }
-    }
-
-    /* Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-        .display-1y-lg {
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: bold;
-            letter-spacing:4px;
-            color:white;
-        }
-    }
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.bannertext {font-size:1rem;
+ font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;
+    } /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+ .bannertext {font-size:1.5rem;
+  font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;
+ 
+ } /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .bannertext {font-size:2rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .bannertext {font-size:2.5rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .bannertext {font-size:3rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+.bannertext {font-size:2.75rem;color:red;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;} 
 
 /* footer */
 footer{
