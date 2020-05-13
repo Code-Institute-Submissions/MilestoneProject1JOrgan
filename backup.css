@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*#websitebanner{
-    background-color: red;
-} */
+.bannertext{
+    
+    font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    text-transform: uppercase;
+}
 
 body{
     font-family:"Pacifico", sans-serif;
