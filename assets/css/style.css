@@ -224,21 +224,22 @@ Custom media queries
     text-transform: uppercase;} 
 }
 
-.button{
+.button
+{
      margin-top: 50px;
      margin-bottom: 50px;
 }
 /* footer */
 footer{
-    background-color: #525252;
     background-color: rgba(20, 40, 80, 1);
     min-height: 120px;
     margin: 0;
     text-align: center;
+
+  
 }
 
 .social-links i{
-  
     font-size: 160%;
     color:#fafafa;
     padding-top:20px;
@@ -251,5 +252,5 @@ footer{
 }
 
 .social-links i:hover {
-    color:rgba(39, 73, 109, 1);
+    color:	rgb(225, 13, 203)
 }
