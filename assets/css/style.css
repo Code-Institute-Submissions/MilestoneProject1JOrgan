@@ -223,6 +223,11 @@ Custom media queries
     padding: 50px;    
     text-transform: uppercase;} 
 }
+
+.button{
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
 /* footer */
 footer{
     background-color: #525252;
