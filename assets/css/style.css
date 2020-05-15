@@ -17,10 +17,16 @@ body{
     font-size: 30px;
     font-weight: 400;
     line-height: 1.5;
-    padding: 50px;
-
+    padding-top: 10px;
 }
 
+.textsection{
+    padding-top: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Pacifico", sans-serif;
+   
+}
 
 
 
