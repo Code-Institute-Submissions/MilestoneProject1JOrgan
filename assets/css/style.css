@@ -43,6 +43,13 @@ body{
     font-size: 20px;
     font-family:"Bitter", sans-serif;
 }
+
+.welcomedescription-container{
+    background-color: rgb(161, 40, 73);
+    color: #fff;
+    font-size: 20px;
+    font-family:"Bitter", sans-serif;
+}
 .form{
     text-align: center;
   
