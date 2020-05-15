@@ -56,9 +56,21 @@
      <div class="container-fluid contactdescription-container">
       <div class="row"><!--Leaving as section id changed websitebanner to a div above-->
        <section id="contactdescription" class="jumbotron container fixed"><!--mt-3-->
-          <blockquote class="coursequote text-center"><p>Multimedia involves the use of a combination of media such as sound, video, film, animation, graphics and artwork in the production of graphic design, computer games, websites or advertisements. 
-           <span class="d-none d-md-block">This full-time course aims to introduce students to the use of multimedia computing in a range of design and production areas. Students gain skills in industry computer packages such as Adobe Photoshop, Adobe Animate, Adobe Dreamweaver and Adobe Premier Pro. Successful students will develop a creative flair for developing multimedia-rich digital content, as well as the software design, project management and general computer skills necessary for future successin this fast-changing environment.</span></p>
-           <p><small>All courses are QQI Certified</small></p></blockquote>
+         <div class="form">
+         <form action="https://formdump.codeinstitute.net/" method="post">
+            <label for="fname">First Name</label>
+              <input type="text" id="fname" name="first_name" required> <br>
+            <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="last_name" required> <br>
+            <label for="email">Email</label>
+              <input type="email" id="email" name="email_address" value="Please enter email" required><br>
+           <textarea id="contact" rows="8" placeholder="What would you like to ask" required=""></textarea><br>
+            <a href="#" class="btn btn-colour" data-toggle="modal" data-target="#contactusModal">Contact Us!</a>
+         </form>
+         
+           
+         </div>
+        
        </section> 
       </div>
      </div>
@@ -121,36 +133,17 @@
     </div>
     </footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signupCourseModal"><!--Interative element - Modal Dialog - In page signup for course-->
+    <div class="modal" tabindex="-1" role="dialog" id="contactusModal"><!--Interative element - Modal Dialog - In page signup for course-->
       <div class="modal-dialog" role="document">
          <div class="modal-content">
            <div class="modal-header">
-             <h5 class="modal-title">EduTech Course Sign Up</h5>
+             <h5 class="modal-title">EduTech Thank You</h5>
                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                  <span aria-hidden="true">&times;</span>
                </button>
              </div>
       <div class="modal-body">
-        <form>
-        <div class="form-group">
-           <label for="name">Name</label>
-           <input type="text" class="form-control" id="name" placeholder="Please enter your name">
-         </div>
-         <div class="form-group">
-           <label for="address">Address</label>
-           <input type="text" class="form-control" id="address" placeholder="1234 Main St">
-         </div>
-         <div class="form-group">
-           <label for="mobile">Mobile</label>
-           <input type="text" class="form-control" id="mobile" placeholder="Please enter mobile number">
-         </div>
-         <div class="form-group">
-           <label for="email">Email address</label>
-           <input type="email" class="form-control" id="email" placeholder="Please enter email">
-           <small id="emailhelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-         </div>
-         <button type="submit" class="btn btn-primary">Submit Application</button>
-        </form>
+        Your message has be submitted to EduTech
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
