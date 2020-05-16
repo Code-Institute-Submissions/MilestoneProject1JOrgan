@@ -37,10 +37,10 @@ body{
 }
 
 .c-callout-info{
-
     color: #fff;
-
 }
+
+
 
 
 
@@ -154,6 +154,13 @@ body{
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0;
+}
+
+.testimonialcards{
+    background-color: rgb(31, 109, 156);
+    color: #fff;
+    padding-bottom: 30px;
+
 }
 
 .coursecontentcard{
