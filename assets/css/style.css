@@ -19,7 +19,9 @@ body{
     line-height: 1.5;
     padding-top: 10px;
 }
-
+.copy{
+    color:#fff;
+}
 .textsection{
     padding-top: 10px;
     color: #fff;
@@ -108,9 +110,7 @@ body{
     background-color: rgba(20, 40, 80, 1);
     
 }
-.navbar-custom{ 
-    background-color: rgba(20, 40, 80, 1);
-}
+
 
 .jumbotron {
     background-color: transparent;
