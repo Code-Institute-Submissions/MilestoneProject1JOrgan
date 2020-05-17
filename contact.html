@@ -56,24 +56,38 @@
       <div class="row"><!--Leaving as section id changed websitebanner to a div above-->
        <section id="contactdescription" class="jumbotron container fixed"><!--mt-3-->
          <div class="form">
-         <form action="https://formdump.codeinstitute.net/" method="post">
-            <label for="fname">First Name</label>
-              <input type="text" id="fname" name="first_name" required> <br>
-            <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="last_name" required> <br>
-            <label for="email">Email</label>
-              <input type="email" id="email" name="email_address" value="Please enter email" required><br>
-           <textarea id="contact" rows="8" placeholder="What would you like to ask" required=""></textarea><br>
-            <a href="#" class="btn btn-colour" data-toggle="modal" data-target="#contactusModal">Contact Us!</a>
-         </form>
-          </div>
-       </section> 
-      </div>
-     </div>
-    
-
-
-
+         <!-- Default form contact - Adapted from MDBootstrap -->
+        <form class="text-center border border-light p-5" action="#!">
+        <!-- Name -->
+         <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+        <!-- Email -->
+        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+       <!-- Subject -->
+         <label>Subject</label>
+          <select class="browser-default custom-select mb-4">
+            <option value="" disabled>Choose option</option>
+            <option value="1" selected>Feedback</option>
+            <option value="2">Application</option>
+            <option value="3">Fee's</option>
+            <option value="4">Course</option>
+         </select>
+        <!-- Message -->
+       <div class="form-group">
+         <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+       </div>
+    <!-- Copy -->
+       <div class="custom-control custom-checkbox mb-4">
+         <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+         <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+       </div>
+      <!-- Send button -->
+       <button class="btn btn-info btn-block" type="submit">Send</button>
+     </form>
+<!-- Default form contact -->
+    </div>
+    </section> 
+    </div>
+    </div>
     
      <div class="container-fluid maindetails-container">
       <div class="row">
