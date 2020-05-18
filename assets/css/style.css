@@ -107,6 +107,8 @@ body{
 .navbar{
     min-height: 80px;
 }
+/*Adapted from Bootstrapious.com*/
+
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 23px;
