@@ -100,6 +100,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-bottom: 30px;
 }
 /*----------------------------------------------------Navigation*/
 /*Nav Bar*/
@@ -185,6 +186,7 @@ body{
     background-color: rgb(31, 109, 156);
     color: #fff;
     padding-bottom: 30px;
+     font-family:"Bitter", sans-serif;
 
 }
 
@@ -193,15 +195,27 @@ body{
     color: #fff;
 }
 
+.coursecontentcard ul li{
+    font-family:"Bitter", sans-serif;
+
+}
+
 .careerscontentcard{
     background-color: rgb(58, 11, 106);
     color: #fff;
     
 }
+.careerscontentcard ul li{
+    font-family:"Bitter", sans-serif;
+
+}
 
 .qualificationscontentcard{
     background-color: rgb(161, 40, 73);
     color: #fff;
+}
+.qualificationscontentcard ul li{
+    font-family:"Bitter", sans-serif;
 
 }
 

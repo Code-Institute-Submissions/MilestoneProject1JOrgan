@@ -53,12 +53,12 @@
       <div class="row"><!--Leaving as section id changed websitebanner to a div above-->
        <section id="contactdescription" class="jumbotron container fixed"><!--mt-3-->
          <div class="form">
-         <!-- Default form login Adapted from MDBootstrap-->
-           <form class="text-center border border-light p-5" action="#!">
+
+           <form class="text-center border border-light p-5">
              <!-- Email -->
-             <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+             <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" name="email" required>
              <!-- Password -->
-             <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+             <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" name="password" required>
              <div class="d-flex justify-content-around">
                  <div>
                    <a href="">Forgot password?</a>
@@ -66,7 +66,7 @@
              <div>
          </div>
          </div>
-          <br><p><button class="btn btn-info my-4 btn-block" type="submit">Sign in</button></p>
+          <a href="#" class="btn btn-info my-4 btn-block" data-toggle="modal" type="submit" data-target="#loginModal">Log In</a>
           </form>
   <!-- Default form login -->
       </div>
@@ -103,17 +103,20 @@
     <div class="copy">© 2020 John Organ</div>
     </footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="contactusModal"><!--Interative element - Modal Dialog - In page signup for course-->
+    <div class="modal" tabindex="-1" role="dialog" id="loginModal"><!--Interative element - Modal Dialog - In page signup for course-->
       <div class="modal-dialog" role="document">
          <div class="modal-content">
            <div class="modal-header">
-             <h5 class="modal-title">EduTech Thank You</h5>
+             <h5 class="modal-title">Welcome Student No 2003438384</h5>
+               
                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                  <span aria-hidden="true">&times;</span>
                </button>
              </div>
       <div class="modal-body">
-        Your message has be submitted to EduTech
+        <p>Your Course: Multimedia</p>
+        <p>This semesters modules:</p>
+        <p>Web Authoring, Image Processing, Multimedia Authoring</p>
         </div>
        </div>
       </div>
