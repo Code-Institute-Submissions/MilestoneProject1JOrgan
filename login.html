@@ -61,7 +61,7 @@
              <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" name="password" required>
              <div class="d-flex justify-content-around">
                  <div>
-                   <a href="">Forgot password?</a>
+                   <a href="#" data-toggle="modal" type="submit" data-target="#forgotpasswordModal">Forgot password?</a>
                  </div>  
              <div>
          </div>
@@ -120,6 +120,24 @@
         </div>
        </div>
       </div>
+     </div>
+
+     <div class="modal" tabindex="-1" role="dialog" id="forgotpasswordModal">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title">Forgot Password</h5>
+             </div>
+      <div class="modal-body">
+        <p>Please Enter Email </p>
+         <input type="email" id="forgotemailFormEmail" class="form-control mb-4" placeholder="E-mail" name="email" required>
+         <a href="#" class="btn btn-info my-4 btn-block" data-toggle="modal" type="submit" data-target="#">Send</a>
+          <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                 <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+      </div>
+     </div>
      </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
