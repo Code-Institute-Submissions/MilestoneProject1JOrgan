@@ -103,15 +103,38 @@ body{
 }
 /*----------------------------------------------------Navigation*/
 /*Nav Bar*/
+
+.navbar{
+    min-height: 80px;
+}
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.navbar-brand{
+    font-size: 20px;  
+
+}
+
 .navbar-custom{
     margin-bottom: 0;
     border:0;
     width: 100%;
-    background-color: rgba(20, 40, 80, 1);
-    
+    background-color: rgba(20, 40, 80, 1); 
+    font-size: 20px;  
 }
 
-
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+/*---------------------------------------------------------------*/
 .jumbotron {
     background-color: transparent;
 }
