@@ -9,7 +9,7 @@ of this website Code Institute, Dublin Business School and Waterford College of 
 
 # Wireframes
 The wireframes used are located in the wireframes folder of this project. The developer went through an iterative design process designing hand drawn wireframes and used those as the basis for digital wireframes and than adapted the wireframes as the development process proceeded.
-To identify components parts of the website a crude initial colour scheme was adopted to help track the different parts and changes to the the website throughout the development an example screenshot of this can be seen in wireframes folder. This allowed the developer to progressively enhance the website throughout the development of EduTech.
+To identify components parts of the website a crude initial colour scheme was adopted to help track the different parts and changes to the website throughout the development an example screenshot of this can be seen in wireframes folder. This allowed the developer to progressively enhance the website throughout the development of EduTech.
 
 # Features
 
