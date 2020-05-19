@@ -13,7 +13,7 @@ To identify components parts of the website a crude initial colour scheme was ad
 
 # Features
 
-* Homepage - Contains a promotional video of EduTech (actually site contains a video of another provider). The homepage also makes use of a third party template for boostrap (about section). Only two of the three testimonials are featured on mobile devices. The text on the webite dynamically changes based on size of screen (e.g. on the homepage "EduTech - Ireland's Premier Digital Design School" is reduced depending on size of the device").
+* Homepage - Contains a promotional video of EduTech (actually site contains a video of another provider). The homepage also makes use of a third party template for boostrap (about section). Only two of the three testimonials are featured on mobile devices. The text on the webite dynamically changes based on size of screen (e.g. on the homepage "EduTech - Ireland's Premier Digital Design School" is reduced depending on size of the device).
 * About - The about links to the about section on the homepage.
 * Courses - Multimedia - On the multimedia webpage the amount of text (course description) is reduced on mobile devices. The course cards in stacked on mobile devices. Click on sign up will show details required for applying for the course.
 * Courses - Graphic Design - Redirects to multimedia.html as the developer didnt have enough time to develop graphic design webpage.
