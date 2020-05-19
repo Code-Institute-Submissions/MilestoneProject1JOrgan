@@ -42,10 +42,10 @@ To identify components parts of the website a crude initial colour scheme was ad
 # Github Links 
 
 * GitHub Workspace
-[GitHub](https://github.com/JOrgan-Source/MilestoneProject1JOrgan)
+[GitHub Workspace](https://github.com/JOrgan-Source/MilestoneProject1JOrgan)
 
 * GitHub live project
-[GitHub](https://jorgan-source.github.io/MilestoneProject1JOrgan/index.html)
+[GitHub Live](https://jorgan-source.github.io/MilestoneProject1JOrgan/index.html)
 
 
 # Credits
