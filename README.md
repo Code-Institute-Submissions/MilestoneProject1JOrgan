@@ -16,7 +16,7 @@ To identify components parts of the website a crude initial colour scheme was ad
 * Homepage - Contains a promotional video of EduTech (actually site contains a video of another provider). The homepage also makes use of a third party template for boostrap (about section). Only two of the three testimonials are featured on mobile devices. The text on the webite dynamically changes based on size of screen (e.g. on the homepage "EduTech - Ireland's Premier Digital Design School" is reduced depending on size of the device).
 * About - The about links to the about section on the homepage.
 * Courses - Multimedia - On the multimedia webpage the amount of text (course description) is reduced on mobile devices. The course cards in stacked on mobile devices. Click on sign up will show details required for applying for the course.
-* Courses - Graphic Design - Redirects to multimedia.html as the developer didnt have enough time to develop graphic design webpage.
+* Courses - Graphic Design - Redirects to multimedia.html as the developer didnt have enough time to develop graphic design webpage. (I decided to remove this as it might cause confusion)
 * Contact - A contact form clicking on send will display message "Your message has be submitted to EduTech"
 * Log In - A log in form clicking on log In will display message "Welcome Student No 2003438384.....". Clicking on forgot password will diplay a dialogue asking for email address to recover log in details.
 
