@@ -1,21 +1,21 @@
 # Milestone Project 1 - EduTech - Ireland's Premier Digital Design School
 
-# Dr.John Organ PhD
+### Dr.John Organ PhD
 
-## UX
+# UX
 
 This website is designed for a fictional digital design school called EduTech. The developer made use of a variety of infulences in the design
 of this website Code Institute, Dublin Business School and Waterford College of Further Education as well as N26. The website is targeted at potential students of EduTech and those with an interest in digitial design and media. In keeping with this target audience the website needed to be colourful and match the kinds of courses on offer at EduTech.
 
-#Wireframes
+# Wireframes
 The wireframes used are located in the wireframes folder of this project. The developer went through an iterative design process designing hand drawn wireframes and used those as the basis for digital wireframes and than adapted the wireframes as the development process proceeded.
-To identify components parts of the website a crude initial colour scheme was adopted to help track the different of parts the website throughout the development an example screenshot of this can be seen in wireframes folder. This allowed the developer to progressively enhance the website throughout development.
+To identify components parts of the website a crude initial colour scheme was adopted to help track the different of parts and changes to the the website throughout the development an example screenshot of this can be seen in wireframes folder. This allowed the developer to progressively enhance the website throughout the development of EduTech
 
 # Features
 
-* Homepage - Contains a promotional video of EduTech (Actually site contains a video of another provider). The homepage also makes use of a third party template for boostrap (about section). Only two of the three testimonials are featured on mobile devices
+* Homepage - Contains a promotional video of EduTech (Actually site contains a video of another provider). The homepage also makes use of a third party template for boostrap (about section). Only two of the three testimonials are featured on mobile devices. The text on the webite dynamically changes based on size of screen (e.g. on the homepage "EduTech - Ireland's Premier Digital Design School" is reduced depending on sixe of the device").
 * About - The about webpage links to the about section on the homepage.
-* Courses - Multimedia - On the multimedia webpage the amount on text (course description) describing the course is reduced on mobile devices. The course cards in stacked on mobile devices. Click on sign up will show details required for applying for the course.
+* Courses - Multimedia - On the multimedia webpage the amount of text (course description) is reduced on mobile devices. The course cards in stacked on mobile devices. Click on sign up will show details required for applying for the course.
 * Courses - Graphic Design - Redirects to multimedia.html as the developer didnt have enough time to develop graphic design webpage.
 * Contact - A contact form clicking on send will display message "Your message has be submitted to EduTech"
 * Log In - A log in form clicking on log In will display message "Welcome Student No 2003438384.....". Clicking on forgot password will diplay a dialogue asking for email address to recover log in details.
